@@ -1,0 +1,322 @@
+/* umumiy style */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: #302C42;
+    color: white;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0px;
+    padding: 18px 10px;
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn {
+    font-weight: 700;
+    padding: 15px 27px;
+    border-radius: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(192, 183, 232, 1);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1332px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.padding {
+    padding-top: 28px;
+    padding-right: 10px;
+}
+
+/* umumiy style end */
+
+/* navbar start */
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+.nav__btn button {
+    padding: 17px 25px;
+    border-radius: 35px;
+}
+
+.nav__btn__contact {
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    background-color: #302C42;
+    margin-right: 20px;
+}
+
+.nav__btn__join {
+    border: none;
+    background-color: #8176AF;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo p {
+    margin: auto 10px;
+}
+
+.nav__btn {
+    padding-top: 10px;
+}
+
+/* navbar end */
+
+/* section start */
+.section__one {
+    margin-top: 10%;
+}
+
+.section__about p {
+    opacity: .6;
+    line-height: 21px;
+}
+
+.section__about h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    width: 484px;
+}
+
+span {
+    color: #8176AF;
+}
+
+.abaut__btn {
+    margin-top: 5%;
+    height: 40px;
+    display: flex;
+}
+
+.abaut__btn img {
+    height: 40px;
+    width: 50px;
+}
+
+.section__about p {
+    width: 400px;
+    font-weight: 400;
+}
+
+.section__about,
+.section__user {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.user__page__img {
+    margin-left: 93px;
+    background-size: cover;
+    height: 426px;
+    width: 480px;
+    border: 18px solid rgba(14, 14, 14, 0.32);
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 50%;
+}
+
+
+.section__about p {
+    width: 400px;
+}
+
+/* one section end */
+
+/* aloqa uchun start */
+.cearboth {
+    clear: both;
+}
+
+.aloqa__uchun {
+    width: 100%;
+    text-align: center;
+    border-radius: 90px;
+    height: 167px;
+    margin-top: 10%;
+    background-image: radial-gradient(rgba(58, 52, 86, 0.95), rgba(33, 30, 46, 1));
+}
+
+.container__location,
+.hr,
+.location,
+.location__info {
+    display: inline-block;
+    text-align: left;
+}
+
+.container__location {
+    padding: 45px 0px;
+}
+
+.location {
+    margin: 0px 10px;
+}
+
+.hr {
+    height: 75px;
+    width: 1px;
+    border: 2px solid rgba(192, 183, 232, 0.33);
+    margin: 0px 59px;
+}
+
+/* aloqa uchun end */
+
+/* section two */
+
+.section__two {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__two-h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.88px;
+    margin-bottom: 8%;
+}
+
+.fontWight {
+    font-weight: 300;
+}
+
+.section__two-p {
+    width: 600px;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+
+/* about page */
+.about__page {
+    display: flex;
+}
+
+.user2 {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 25%;
+}
+
+.user2__about h1 {
+    padding: 10px 0px;
+    font-size: 36px;
+}
+
+.user2__about p {
+    line-height: 24.5px;
+    margin-bottom: 5%;
+    width: 630px;
+}
+
+.radius__container {
+    display: flex;
+}
+
+.radius__page {
+    padding: 33px 13px;
+    width: 310px;
+    height: 511px;
+    border-radius: 50px;
+    margin: 0px 10px;
+    background-image: radial-gradient(rgba(58, 52, 86, 0.95), rgba(33, 30, 46, 1));
+}
+
+.radius__container img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 18px solid rgba(14, 14, 14, 0.32);
+}
+
+.radius__container h1 {
+    text-align: center;
+}
+
+.radius__container p {
+    opacity: .8;
+    line-height: 20.63px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.img__container {
+    margin: 0px 20%;
+}
+
+.hr2 {
+    height: 2px;
+    width: 70%;
+    border: 1px solid rgba(192, 183, 232, 0.33);
+    margin: 5px auto;
+    margin-bottom: 30px;
+}
+
+.page__about {
+    width: 100%;
+    text-align: center;
+    margin: 10% auto;
+}
+
+.section__four {
+    background-image: url(../imgs/xx.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.page {
+    border-radius: 60px;
+}
