@@ -1,0 +1,187 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title pug lesson
+        //- style css link
+        link(rel="stylesheet", href="../css/style.css")
+        //- style css link end
+        //- font link
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        //- font link end
+        //- icons link start
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        //- icons link finish
+    body
+        // header start
+        header.header.container
+            .nav__logo
+                    a(href="#")
+                        img(src="/imgs/logo-img.png", alt="")
+                    a(href="#")
+                        img(src="/imgs/logo.png", alt="")
+            nav.nav
+                ul.nav__ul
+                    li.nav__list
+                        a(href="#").nav__item ABOUT
+                    li.nav__list 
+                        a(href="#").nav__item SERVICES
+                    li.nav__list 
+                        a(href="#").nav__item TECHNOLOGIES
+                    li.nav__list 
+                        a(href="#").nav__item HOW TO
+            .button__group
+                button.nav__button__item CONTACT US
+                button.nav__button__item JOIN HYDRA
+        // header end
+
+        // main start
+        main.main
+            //- start one page
+            section.section__one__page.container
+                .about__page__container
+                    .abaut__info__left_container
+                        p.about__sarlavha Dive Into The Depths Of Virtual Reality
+                        p.about__info Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget. Lectus mauris eros in vitae .
+                        //- .srelka img 
+                        .strelka__img 
+                            button.nav__button__item BUILD YOUR WORLD
+                            img(src="/imgs/strelka-small.png", alt="strelka small") 
+                    .abaut__info__right_container
+                        img(src="/imgs/user.png", alt="")
+
+                // .call__center
+                .call__center__page
+                    //- location
+                    .call__container
+                        img.call__logo(src="/imgs/location.png", alt="")
+                        div
+                            h1.call__title Pay Us a Visit
+                            .call__text Union St, Seattle, WA 98101, United States
+                    
+                    //- call
+                    .call__container
+                        .hr
+                        img.call__logo(src="/imgs/shape.png", alt="")
+                        div 
+                            h1.call__title Give Us a Call
+                            .call__text (110) 1111-1010
+                    
+                    //- email
+                    .call__container
+                        .hr
+                        img.call__logo(src="/imgs/shapes.png", alt="")
+                        div
+                            h1.call__title Send Us a Message
+                            .call__text Contact@HydraVTech.com
+            //- finish one page
+
+            //- start two page
+            section.services__page__container.container
+                .services__container
+                    .services__title
+                        h1.services__title INTRODUCTION
+                        .services__title__container 
+                            h1.services__title-2 TO HYDRA VR
+                            img(src="/imgs/strielka.png", alt="")
+                    .services__text
+                        p Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
+                
+                .user__about__container
+                    .user__img__left
+                        img(src="/imgs/user2.png", alt="")
+                    .user__about__right
+                        h1.user__title.mt-90 ABOUT
+                        h1.user__title-2 HYDRA VR
+                        P.user__text Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipiscing at in. Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet sed. Consequat semper viverra nam libero justo laoreet sit amet. Aliquam etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pha retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudin tempor.
+                        button.nav__button__item.mt-5 LET’S GET IN TOUCH
+            //end two page
+
+            //start three page
+            section.technologies__page__container.container
+                //- !!! technologies page servisesni classi qushilgan
+                .services__container
+                    .services__title
+                        h1.services__title WHY BUILD
+                        .services__title__container 
+                            h1.services__title-2 WITH HYDRA?
+                            img(src="/imgs/strielka.png", alt="")
+                    .services__text
+                        p Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
+                .users__page 
+                    .users__container
+                        .users__img 
+                            img(src="/imgs/pexels1.png", alt="pexels1")
+                        .users__text 
+                            h1 SIMUTAOR
+                            .hr2
+                            p.use__texts Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.
+                            button.nav__button__item TRY IT NOW
+                    .users__container
+                        .users__img 
+                            img(src="/imgs/pexels2.png", alt="pexels1")
+                        .users__text 
+                            h1 EDUCATION
+                            .hr2
+                            p.use__texts Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.
+                            button.nav__button__item TRY IT NOW
+                    .users__container
+                        .users__img 
+                            img(src="/imgs/pexels3.png", alt="pexels1")
+                        .users__text 
+                            h1 SELF-CARE
+                            .hr2
+                            p.use__texts Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.
+                            button.nav__button__item TRY IT NOW
+                    .users__container
+                        .users__img 
+                            img(src="/imgs/pexels4.png", alt="pexels1")
+                        .users__about
+                            h1 OUTDOOR
+                            hr.hr2
+                            p.use__texts Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.
+                            button.nav__button__item TRY IT NOW
+            // main end
+            // footer start
+            footer.footer.container
+                .footer__logo
+                    img(src="imgs/footer.png", alt="")
+                hr.hr3
+                nav.nav
+                    ul.footer__ul
+                        li.nav__list
+                            a(href="#").nav__item ABOUT
+                        li.nav__list 
+                            a(href="#").nav__item SERVICES
+                        li.nav__list 
+                            a(href="#").nav__item TECHNOLOGIES
+                        li.nav__list 
+                            a(href="#").nav__item HOW TO 
+                hr.hr3
+                nav.nav
+                    ul.footer__ul
+                        li.nav__list
+                            a(href="#").nav__item F.A.Q
+                        li.nav__list 
+                            a(href="#").nav__item SITEMAP
+                        li.nav__list 
+                            a(href="#").nav__item CONDITIONS
+                        li.nav__list 
+                            a(href="#").nav__item LICENSES
+                hr.hr3
+                div 
+                .footer__text 
+                    h2 SOCIALIZE WITH HYDRA
+                    .icons 
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i> 
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-instagram"></i>       
+                    button.nav__button__item BUILD YOUR WORLD
+            // footer end
+            hr.container
+            p.footer__end 2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED
