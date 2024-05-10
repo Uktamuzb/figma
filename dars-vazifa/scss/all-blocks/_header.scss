@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+
+    .header__link {
+        padding: 10px;
+    }
+    .header__item{
+        display: flex;
+        gap: 22px;
+    }
+
+    .header__list {
+        list-style: none;
+    }
+
+    .sign__btn {
+        border: 1px solid;
+        background-color: $light-color;
+    }
+
+    .login__btn {
+        background-color: $color-black;
+        color: $light-color;
+    }
+}

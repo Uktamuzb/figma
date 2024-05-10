@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+button {
+  border-radius: 10px;
+  padding: 7px 15px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.header .header__link {
+  padding: 10px;
+}
+.header .header__item {
+  display: flex;
+  gap: 22px;
+}
+.header .header__list {
+  list-style: none;
+}
+.header .sign__btn {
+  border: 1px solid;
+  background-color: #fff;
+}
+.header .login__btn {
+  background-color: black;
+  color: #fff;
+}
+
+.about__page {
+  display: flex;
+  justify-content: space-between;
+}
+.about__page button {
+  margin-top: 40px;
+  width: 275px;
+  height: 73px;
+  border: none;
+  border-radius: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  box-shadow: 0px 20px 35px 0px rgba(63, 26, 75, 0.14);
+  background-color: #fff;
+  background: linear-gradient(90deg, rgba(174, 89, 196, 0.5) 0.62%, rgba(109, 236, 205, 0.38) 51.8%, rgba(219, 255, 0, 0.325) 94.73%);
+}
+
+.about__title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about__text {
+  margin-top: 40px;
+  line-height: 30px;
+  font-weight: 400;
+  opacity: 0.8;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,68 @@
+.menu__page {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: white;
+  width: 80%;
+  height: 30px;
+  margin: 10px 0px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+input {
+  width: 90%;
+  height: 30px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 5px 0px;
+  border: none;
+  background: rgb(238, 238, 238);
+}
+
+.user__profil {
+  display: flex;
+  align-items: center;
+}
+
+picture {
+  padding: 10px;
+}
+
+.menu__nav,
+.menu__window {
+  height: 800px;
+  height: 100vh;
+}
+
+.menu__nav {
+  width: 20%;
+  padding: 10px;
+  background-color: white;
+}
+
+.menu__window {
+  width: 80%;
+  background: rgb(242, 153, 74);
+}
+
+.menu__btn {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logn__ligh {
+  position: absolute;
+  bottom: 10px;
+  left: 60px;
+}/*# sourceMappingURL=menu.css.map */

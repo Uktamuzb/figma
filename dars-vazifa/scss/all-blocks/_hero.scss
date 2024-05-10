@@ -1,0 +1,30 @@
+.about__page {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        margin-top: 40px;
+        width: 275px;
+        height: 73px;
+        border: none;
+        border-radius: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        box-shadow: 0px 20px 35px 0px rgba(63, 26, 75, 0.14);
+        background-color: $light-color;
+        background: linear-gradient(90deg, rgba(174, 89, 196, 0.5) 0.62%, rgba(109, 236, 205, 0.38) 51.8%, rgba(219, 255, 0, 0.325) 94.73%);
+    }
+}
+
+.about__title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about__text {
+    margin-top: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: .8;
+}
